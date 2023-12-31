@@ -7,4 +7,5 @@ func main() {
 	value()
 	variable()
 	array()
+	slice()
 }
