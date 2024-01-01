@@ -55,6 +55,8 @@ func main() {
 		fmt.Println(msg)
 	}("Going")
 	time.Sleep(time.Second)
+
 	fmt.Println("Done")
 
+	channel()
 }
