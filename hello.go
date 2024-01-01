@@ -65,4 +65,6 @@ func main() {
 	worker(done)
 	<-done
 
+	timer()
+
 }
