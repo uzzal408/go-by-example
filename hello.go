@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 	fmt.Println("Hello! World")
@@ -44,5 +47,14 @@ func main() {
 
 	mesure(&r)
 	mesure(&c)
+
+	f("Direct")
+	go f("Goroutine")
+
+	go func(msg string) {
+		fmt.Println(msg)
+	}("Going")
+	time.Sleep(time.Second)
+	fmt.Println("Done")
 
 }
