@@ -11,4 +11,6 @@ func main() {
 	mapFunc()
 
 	rangeFunc()
+	value1, value2 := multipleReturn()
+	fmt.Println("return multiple value: ", value1, value2)
 }
