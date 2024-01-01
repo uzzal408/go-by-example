@@ -30,4 +30,14 @@ func main() {
 
 	fmt.Println(person.name)
 
+	r := rect{width: 20, hieght: 30}
+
+	fmt.Println("area: ", r.area())
+	fmt.Println("Perim: ", r.perim())
+
+	rp := &r
+
+	fmt.Println("RP Area: ", rp.area())
+	fmt.Println("RP Perim: ", rp.perim())
+
 }

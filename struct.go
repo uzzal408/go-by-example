@@ -5,10 +5,8 @@ type person struct {
 	age  int
 }
 
-func structFunc(name string, age int) person {
+func structFunc(name string, age int) *person {
 
-	p := person{name: name}
-	p.age = age
-
-	return p
+	p := person{name: name, age: age}
+	return &p
 }
