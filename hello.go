@@ -9,4 +9,6 @@ func main() {
 	array()
 	slice()
 	mapFunc()
+
+	rangeFunc()
 }
