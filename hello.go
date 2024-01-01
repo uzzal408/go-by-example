@@ -17,4 +17,17 @@ func main() {
 
 	nums := []int{8, 9, 4}
 	sum(nums...)
+
+	nexItem := intSeq()
+	fmt.Println(nexItem())
+	fmt.Println(nexItem())
+	fmt.Println(nexItem())
+
+	newItem := intSeq()
+	fmt.Println(newItem())
+
+	person := structFunc("Ismail", 29)
+
+	fmt.Println(person.name)
+
 }
