@@ -59,4 +59,5 @@ func main() {
 	fmt.Println("Done")
 
 	channel()
+	channelBuffered()
 }
