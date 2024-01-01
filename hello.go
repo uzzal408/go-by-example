@@ -60,4 +60,9 @@ func main() {
 
 	channel()
 	channelBuffered()
+
+	done := make(chan bool, 1)
+	worker(done)
+	<-done
+
 }
