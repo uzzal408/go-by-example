@@ -40,4 +40,9 @@ func main() {
 	fmt.Println("RP Area: ", rp.area())
 	fmt.Println("RP Perim: ", rp.perim())
 
+	c := circle{redious: 5}
+
+	mesure(&r)
+	mesure(&c)
+
 }
