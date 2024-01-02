@@ -66,5 +66,7 @@ func main() {
 	<-done
 
 	timer()
+	ticker()
+	callMutex()
 
 }
